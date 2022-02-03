@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: red;
+  color: white;
+
+  .categories {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content-right {
+    display: flex;
+    flex-direction: row;
+
+    .user-info {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
