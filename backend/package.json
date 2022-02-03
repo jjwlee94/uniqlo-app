@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
+    "seed": "node ./seeds/seeds.js",
+    "db:reset": "node ./seeds/reset.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
