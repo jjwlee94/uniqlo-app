@@ -6,6 +6,11 @@
   background-color: red;
   color: white;
 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
   .categories {
     display: flex;
     flex-direction: row;
